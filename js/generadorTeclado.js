@@ -25,7 +25,7 @@ var actual = 0;
 var display = '';
 var desactivado = false;
 const teclaAccionNumero = (numero) => {
-    new Audio('../audio/audio click.mp3').play();
+    new Audio('../audio/audio_click.mp3').play();
     if (actual>3 || desactivado) return;
     const dispLetras = document.querySelectorAll('[data-display-numero]');
     dispLetras[actual].textContent = numero;
@@ -33,7 +33,7 @@ const teclaAccionNumero = (numero) => {
     actual++;
 };
 const teclaAccionBorrar = () => {
-    new Audio('../audio/audio click.mp3').play();
+    new Audio('../audio/audio_click.mp3').play();
     if (desactivado) return;
     const dispLetras = document.querySelectorAll('[data-display-numero]');
     dispLetras.forEach(element => {
@@ -46,7 +46,7 @@ const teclaAccionBorrar = () => {
 
 };
 const teclaAccionEnviar = () => {
-    new Audio('../audio/audio click.mp3').play();
+    new Audio('../audio/audio_click.mp3').play();
     const dispLetras = document.querySelectorAll('[data-display-numero]');
     if (display === '5913') {
         dispLetras.forEach(element => {
