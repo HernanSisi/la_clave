@@ -1,0 +1,90 @@
+#Cable-1{
+    position: absolute;
+    width: 15px;
+    height: 14vh;
+    background-color: var(--cl-cable-v1);
+    box-shadow: 4px 2px var(--cl-cable-v1-shadow);
+    z-index: -1;
+    left: 15vw;
+    top: 20vh;
+}
+#Cable-1::after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 14vh;
+    background-color: var(--cl-cable-v2);
+    box-shadow: 4px 2px var(--cl-cable-v2-shadow);
+    z-index: -1;
+    left: 30px;
+}
+#Cable-1::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 14vh;
+    background-color: var(--cl-cable-v3);
+    box-shadow: 4px 2px var(--cl-cable-v3-shadow);
+    z-index: -1;
+    left: 60px;
+}
+#Cable-2{
+    position: absolute;
+    width: 15px;
+    height: 13vh;
+    background-color: var(--cl-cable-v3);
+    box-shadow: 4px 0px var(--cl-cable-v3-shadow);
+    z-index: -1;
+    left: 40vw;
+    bottom: 0vh;
+}
+#Cable-2::after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 13vh;
+    background-color: var(--cl-cable-v2);
+    box-shadow: 4px 0px var(--cl-cable-v2-shadow);
+    z-index: -1;
+    left: 60px;
+}
+#Cable-2::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 13vh;
+    background-color: var(--cl-cable-v1);
+    box-shadow: 4px 0px var(--cl-cable-v1-shadow);
+    z-index: -1;
+    left: 30px;
+}
+#Cable-3{
+    position: absolute;
+    width: 13vw;
+    height: 15px;
+    background-color: var(--cl-cable-v1);
+    box-shadow: 2px 6px var(--cl-cable-v1-shadow);
+    z-index: -1;
+    right: 0;
+    top: 50vh;
+}
+#Cable-3::after{
+    content: '';
+    position: absolute;
+    width: 13vw;
+    height: 15px;
+    background-color: var(--cl-cable-v3);
+    box-shadow: 2px 6px var(--cl-cable-v3-shadow);
+    z-index: -1;
+    top: 30px;
+}
+#Cable-3::before{
+    content: '';
+    position: absolute;
+    width: 13vw;
+    height: 15px;
+    background-color: var(--cl-cable-v2);
+    box-shadow: 2px 6px var(--cl-cable-v2-shadow);
+    z-index: -1;
+    top: 60px;
+}

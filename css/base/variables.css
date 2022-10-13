@@ -1,0 +1,37 @@
+:root{
+    --bk-header: #5d58e4;
+
+
+    --bk-display: #001700;
+    --cl-letras-display: #004006;
+    --cl-letras-display-shadow: #0040066e;
+
+    --bk-display-acierto: #41ae4a;
+    --cl-letras-acierto: #1be91e;
+
+    --bk-display-fracaso: #250c0c;
+    --cl-letras-fracaso: #7f1213;
+
+    --ff-display: 'Source Code Pro', monospace;
+
+
+    --cl-cable-v1: #89140f;
+    --cl-cable-v2: #eed432;
+    --cl-cable-v3: #053f99;
+    --cl-cable-v1-shadow: #5c1412;
+    --cl-cable-v2-shadow: #aa9820;
+    --cl-cable-v3-shadow: #234f91;
+
+
+    --bk-teclado: #99968d;
+    --bk-teclado-shadow: #5e5c56;
+    --bk-tecla: #ede5ce;
+    --bk-tecla-shadow: #8f8b7f;
+    --cl-letra: #282723;
+    --cl-letra-shadow: #000;
+    --ff-teclado: 'Squada One', cursive;
+    --bk-tecla-borrar: #c44741;
+    --bk-tecla-borrar-shadow: #883530;
+    --bk-tecla-enviar: #2caf46;
+    --bk-tecla-enviar-shadow: #227a34;
+}

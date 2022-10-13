@@ -1,0 +1,22 @@
+@import url(variables.css);
+@import url(../components/header.css);
+@import url(../components/display.css);
+@import url(../components/teclado.css);
+@import url(../components/cables.css);
+@import url(../components/acceso.css);
+html, body {
+    height: 100%;
+    user-select: none;
+}
+header{
+    height: 8vh;
+}
+main{
+    height: calc(100vh - 13vh);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+*{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}

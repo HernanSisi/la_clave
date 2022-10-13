@@ -1,0 +1,55 @@
+.Teclado{
+    height: 69vh;
+    display: grid;
+    grid: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;
+    margin: 4vw;
+    border-radius: 2vw;
+    background-color: var(--bk-teclado);
+    box-shadow: 4px 4px var(--bk-teclado-shadow);
+}
+
+.Teclado__Tecla{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3vw;
+    background-color: var(--bk-tecla);
+    border-radius: 4vw;
+    box-shadow: 4px 4px var(--bk-tecla-shadow);
+    outline: none;
+}
+.Teclado__Tecla:active{
+    background-color: var(--bk-tecla-shadow);
+}
+.Teclado__Tecla:focus { 
+    outline-color: transparent; 
+    outline-style: none;
+}
+.Teclado__Tecla__Texto{
+    font-family: var(--ff-teclado);
+    color: var(--cl-letra);
+    text-shadow: 2px 2px var(--cl-letra-shadow);
+}
+#tecla-1,#tecla-2,#tecla-3,#tecla-4,#tecla-5,#tecla-6,#tecla-7,#tecla-8,#tecla-9,#tecla-0{
+    font-size: 4rem;
+}
+#tecla-BORRAR, #tecla-ENVIAR{
+    font-size: 2rem;
+    color: aqua;
+}
+
+.Teclado__Tecla--rojo{
+    box-shadow: 4px 4px var(--bk-tecla-borrar-shadow);
+    background-color: var(--bk-tecla-borrar);
+}
+.Teclado__Tecla--verde{
+    background-color: var(--bk-tecla-enviar);
+    box-shadow: 4px 4px var(--bk-tecla-enviar-shadow);
+}
+.Teclado__Tecla--rojo:active{
+    background-color: var(--bk-tecla-borrar-shadow);
+}
+.Teclado__Tecla--verde:active{
+    background-color: var(--bk-tecla-enviar-shadow);
+}

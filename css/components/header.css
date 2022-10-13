@@ -1,0 +1,14 @@
+/* header{
+    height: 3vh;
+} */
+.header{
+    background-color: var(--bk-header);
+    text-align: center;
+    height: 100%;
+    margin: 0 5vw;
+    border-radius: 0 0 5vh 5vh;
+}
+.header__logo{
+    height: calc(100% - 2vh);
+    padding: 1vh 0 ;
+}

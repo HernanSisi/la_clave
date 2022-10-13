@@ -1,0 +1,116 @@
+.Acceso{
+    position: absolute;
+    width: 70vw;
+    height: 10rem;
+    background-color: var(--bk-display);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5vw;
+    top: calc(50% - (10rem/2));
+    left: calc(50% - (70vw/2));
+}
+
+.Acceso__texto{
+    color: var(--cl-letras-acierto);
+    text-shadow: 2px 2px var(--cl-letras-display-shadow);
+    font-family: var(--ff-teclado);
+    font-size: 4rem;
+}
+
+
+
+
+#Cable-largo-1{
+    position: absolute;
+    width: 15px;
+    height: 50vh;
+    background-color: var(--cl-cable-v1);
+    box-shadow: 4px 2px var(--cl-cable-v1-shadow);
+    z-index: -1;
+    left: 20vw;
+    top: -1vh;
+}
+#Cable-largo-1::after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 50vh;
+    background-color: var(--cl-cable-v2);
+    box-shadow: 4px 2px var(--cl-cable-v2-shadow);
+    z-index: -1;
+    left: 30px;
+}
+#Cable-largo-1::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 50vh;
+    background-color: var(--cl-cable-v3);
+    box-shadow: 4px 2px var(--cl-cable-v3-shadow);
+    z-index: -1;
+    left: 60px;
+}
+#Cable-largo-2{
+    position: absolute;
+    width: 15px;
+    height: 55vh;
+    background-color: var(--cl-cable-v3);
+    box-shadow: 4px 0px var(--cl-cable-v3-shadow);
+    z-index: -1;
+    left: 40vw;
+    bottom: 0vh;
+}
+#Cable-largo-2::after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 55vh;
+    background-color: var(--cl-cable-v2);
+    box-shadow: 4px 0px var(--cl-cable-v2-shadow);
+    z-index: -1;
+    left: 60px;
+}
+#Cable-largo-2::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 55vh;
+    background-color: var(--cl-cable-v1);
+    box-shadow: 4px 0px var(--cl-cable-v1-shadow);
+    z-index: -1;
+    left: 30px;
+}
+
+
+#Cable-largo-3{
+    position: absolute;
+    width: 50vw;
+    height: 15px;
+    background-color: var(--cl-cable-v1);
+    box-shadow: 2px 6px var(--cl-cable-v1-shadow );
+    z-index: -1;
+    right: 0;
+    top: calc(50% - (10rem/4));
+}
+#Cable-largo-3::after{
+    content: '';
+    position: absolute;
+    width: 50vw;
+    height: 15px;
+    background-color: var(--cl-cable-v3);
+    box-shadow: 2px 6px var(--cl-cable-v3-shadow);
+    z-index: -1;
+    top: 30px;
+}
+#Cable-largo-3::before{
+    content: '';
+    position: absolute;
+    width: 50vw;
+    height: 15px;
+    background-color: var(--cl-cable-v2);
+    box-shadow: 2px 6px var(--cl-cable-v2-shadow);
+    z-index: -1;
+    top: 60px;
+}
