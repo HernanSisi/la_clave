@@ -54,7 +54,7 @@ const teclaAccionEnviar = () => {
         });
         document.querySelector('[data-display]').classList.add('Display--acierto');
         setTimeout(function() { 
-            window.location.href = '../acertaste.html';
+            window.location.href = 'acertaste.html';
         },3000);
     }
     dispLetras.forEach(element => {
