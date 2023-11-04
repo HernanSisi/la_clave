@@ -57,7 +57,7 @@ const teclaAccionEnviar = () => {
     let audio2 = document.querySelector('audio');
     audio2.play();
     const dispLetras = document.querySelectorAll('[data-display-numero]');
-    if (display === '5913') {
+    if (display === '1188') {
         dispLetras.forEach(element => {
             element.classList.add('Display__Texto--acierto');
         });
